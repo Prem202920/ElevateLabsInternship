@@ -2,8 +2,8 @@
 
 ## Overview
 
-A simple personal profile webpage created as part of the ElevateLabs internship tasks.  
-The project demonstrates semantic HTML structure, CSS box model styling, and GitHub version control.
+A personal profile webpage created as part of the ElevateLabs internship tasks.  
+The project demonstrates semantic HTML, CSS box model styling, responsive Flexbox layout, and GitHub version control.
 
 ---
 
@@ -12,20 +12,20 @@ The project demonstrates semantic HTML structure, CSS box model styling, and Git
 ### Task 1: Semantic HTML
 
 - Built a personal profile page using HTML5 semantic elements.
-- Included header, navigation, main sections, and footer.
-- Added profile image and internal navigation links.
+- Added header, navigation, main sections, and footer.
+- Included profile image and internal navigation links.
 
-### Task 2: CSS Styling
+### Task 2: CSS Box Model Styling
 
 - Created an external CSS file.
-- Applied CSS Box Model (margin, padding, border).
-- Styled page layout and typography.
+- Applied margin, padding, and border to demonstrate box model.
+- Styled layout and typography.
 
-### Task 3: GitHub Upload
+### Task 3: Responsive Flexbox Layout
 
-- Initialized Git repository using VS Code.
-- Committed project files.
-- Pushed code to GitHub repository.
+- Implemented Flexbox for navigation, skills section, and about section.
+- Created responsive design with flex-wrap and media queries.
+- Ensured mobile-friendly layout.
 
 ---
 
