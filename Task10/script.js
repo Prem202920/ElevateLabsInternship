@@ -15,27 +15,23 @@ function fetchQuote() {
     quoteText.textContent = "";
     authorText.textContent = "";
 
-    // Fetch request to public API
-    fetch("https://api.quotable.io/random")
+    fetch("https://api.zenquotes.io/api/random")
         .then(response => {
-            // Check if response is successful
             if (!response.ok) {
                 throw new Error("Failed to fetch data");
             }
-            return response.json(); // Convert to JSON
+            return response.json();
         })
         .then(data => {
-            // Display fetched data
-            quoteText.textContent = `"${data.content}"`;
-            authorText.textContent = `— ${data.author}`;
+            const quote = data[0];
+            quoteText.textContent = `"${quote.q}"`;
+            authorText.textContent = `— ${quote.a}`;
         })
         .catch(error => {
-            // Handle errors
             errorText.textContent = "Error loading quote. Please try again.";
             console.error(error);
         })
         .finally(() => {
-            // Hide loading indicator
             loadingText.style.display = "none";
         });
 }
