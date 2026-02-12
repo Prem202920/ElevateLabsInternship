@@ -1,21 +1,23 @@
-# Task 7: JavaScript DOM Manipulation
+# Frontend Portfolio – Prem Patil
 
 ## Overview
 
-This task demonstrates JavaScript DOM manipulation by adding interactivity to the hosted profile page.
+This portfolio contains 15 frontend development tasks completed during internship training.
 
-## Features Implemented
+## Topics Covered
 
-- JavaScript file linked to HTML
-- DOM element selection using getElementById
-- Button click event handling
-- Dynamic text modification
-- CSS class toggling for theme change
-- Console logging for debugging
+- Semantic HTML & CSS layout
+- Responsive design (Flexbox & Grid)
+- JavaScript DOM manipulation
+- Forms & validation
+- Fetch API & async data
+- LocalStorage authentication
+- Single-Page Application routing
+- UI components & interactions
 
-## Technologies Used
+## Live Navigation
 
-HTML5, CSS3, JavaScript
+Each card on the portfolio homepage links to the corresponding task.
 
 ## Author
 
