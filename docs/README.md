@@ -1,8 +1,8 @@
-# Frontend Portfolio – Prem Patil
+# ElevateLabs Portfolio – Prem Patil
 
 ## Overview
 
-This portfolio contains 15 frontend development tasks completed during internship training.
+This portfolio contains 15 web development tasks completed during internship training.
 
 ## Topics Covered
 
